@@ -1,40 +1,38 @@
-# O Caso Jeffrey Epstein: Mistérios e Investigações
+# 🕵️‍♂️ O Caso Jeffrey Epstein: Mistérios e Investigações
 
-Este projeto é uma página web informativa e responsiva que detalha as investigações e os impactos do escândalo Jeffrey Epstein. O site foi reestruturado para demonstrar a aplicação prática do framework **Bootstrap 5**, focando em produtividade e design responsivo.
+Este projeto é uma plataforma web informativa de duas páginas que detalha as investigações e os desdobramentos do escândalo Jeffrey Epstein. O site utiliza o framework **Bootstrap 5** para garantir uma interface moderna, organizada e totalmente responsiva.
 
 ---
 
-## Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
-Abaixo estão as ferramentas e bibliotecas aplicadas no desenvolvimento desta versão:
+O projeto utiliza o que há de mais moderno em desenvolvimento front-end essencial:
 
 | Ferramenta | Descrição |
 | :--- | :--- |
-| **HTML5** | Estrutura semântica e acessível. |
-| **Bootstrap 5.3** | Framework CSS para componentes e sistema de grid. |
-| **CDN (Content Delivery Network)** | Método de importação das dependências do Bootstrap. |
-| **Markdown** | Documentação técnica do repositório. |
+| **HTML5** | Estrutura semântica para melhor acessibilidade e SEO. |
+| **Bootstrap 5.3** | Framework principal para estilização, componentes e sistema de grid. |
+| **CDN** | Entrega rápida das dependências do Bootstrap sem necessidade de download local. |
+| **Multi-páginas** | Navegação interna entre a Home e a Central de Contato. |
 
 ---
 
-## Principais Classes Bootstrap Aplicadas
+## 🛠️ Novidades desta Versão
 
-Nesta versão, substituímos o CSS manual por classes utilitárias do Bootstrap:
+Diferente da versão inicial, este projeto agora conta com:
 
-* `container`: Centralização e limitação da largura máxima.
-* `row` & `col-md-X`: Sistema de grid para colocar textos ao lado de imagens.
-* `card`: Utilizado na seção de curiosidades para criar um box destacado.
-* `btn-dark`: Estilização moderna para o botão de envio do formulário.
-* `img-fluid`: Garantia de que as fotos nunca ultrapassem a largura da tela.
-* `nav-pills`: Estilo de "pílulas" para os links de navegação.
+* **Navegação Integrada:** Sistema de links entre `index.html` e `contato.html` usando classes de botões e pílulas do Bootstrap.
+* **Central de Atendimento:** Uma página dedicada para contatos e redes sociais com layout em **Cards Shadow**.
+* **Layout Fluido:** Uso intensivo de `row` e `col-md-6` para garantir que as informações de contato fiquem bem distribuídas.
+* **Tipografia Aprimorada:** Uso de classes como `fs-3`, `fw-bold` e `text-nowrap` para garantir que e-mails longos não quebrem o layout.
 
 ---
 
-## Estrutura de Pastas
+## 📂 Estrutura de Pastas Atualizada
 
 ```text
 /
 ├── assets/              # Imagens (imagem_principal.png, jeff_preso.png, ilha.jpg)
-├── index.html           # Código principal com Bootstrap 5
-├── script.js            # Lógica de recebimento dos dados do formulário
+├── index.html           # Página principal com a análise do caso
+├── contato.html         # Página de contatos, redes sociais e feedback
 └── README.md            # Documentação do projeto
